@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ff9560c5;
+    overflow: hidden;
+}
+
+
+
+.main-bar {
+    background-color: #ffff;
+    color: #ff9560;
+    border-end-end-radius: 7px;
+    border-end-start-radius: 7px;
+    padding: 16px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+nav {
+    /* justify-self: center; */
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    grid-row: 2;
+}
+
+#home {
+    padding-right: 500px;
+    letter-spacing: 0.1cap;
+    color: #FF9660;
+    font-size:90%;
+    background-color: #ffffff00;
+    text-decoration: none;
+    font-family:Papyrus;
+    filter: drop-shadow(0 0 0.04rem rgb(0, 0, 0));
+}
+
+#contact{
+    padding-left: 500px;
+    letter-spacing: 0.1cap;
+    color: #FF9660;
+    font-size:90%;
+    background-color: #ffffff00;
+    text-decoration: none;
+    font-family:Papyrus;
+    filter: drop-shadow(0 0 0.04rem rgb(0, 0, 0));
+}
+
+
+
+
+.content {
+    display: grid;
+    grid-template-columns: 300px 1fr; /* Let the text container take only the space it needs */
+    grid-template-rows: auto;
+    padding-left: 115px;
+}
+
+
+
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#pic {
+    display: flex;
+    width: 450px;
+    height: auto;
+    left: 20px;
+    background-color: transparent; /* Set background color to transparent */
+    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+
+    
+    
+ 
+}
+
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 10;
+    background-color: "";
+
+}
+
+h2, .p1{
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    color: #ffff;
+    background-color: transparent; /* Set background color to transparent */
+    filter: drop-shadow(0 0 0.05rem rgb(0, 0, 0));   
+    }
+    
+
+
+
+.text-container h2, .text-container p {
+    margin: 9px 0; /* Adjust the margin to reduce spacing */
+}
+
+h1 {
+    background-color: #ffffff00;
+    font-size: 20px;
+    font-family: 'Papyrus';
+    filter: drop-shadow(0 0 0.1rem rgb(0, 0, 0));
+}
