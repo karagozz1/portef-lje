@@ -73,11 +73,29 @@ nav {
     justify-content: center;
     position: relative;
     bottom: 300px;
+    color:#ffffff;
+    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+    background-color: transparent; /* Set background color to transparent */
+
 }
+
 
 p{
     position: relative;
     left: 20px;
+    background-color: transparent; /* Set background color to transparent */
 }
 
+b{
+    background-color: transparent; /* Set background color to transparent */
+}
 
+h2{
+    background-color: transparent; /* Set background color to transparent */
+}
+
+#tlf{
+    color: blue;
+    text-decoration: underline;
+    background-color: transparent; /* Set background color to transparent */
+}
